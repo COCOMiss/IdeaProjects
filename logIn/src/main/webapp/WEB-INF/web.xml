@@ -1,0 +1,90 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>regist</servlet-name>
+    <servlet-class>RegistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>logout</servlet-name>
+    <servlet-class>LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>borrow</servlet-name>
+    <servlet-class>BorrowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>return</servlet-name>
+    <servlet-class>ReturnServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>query</servlet-name>
+    <servlet-class>QueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addRemoveBook</servlet-name>
+    <servlet-class>AddRemoveBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>updatePassword</servlet-name>
+    <servlet-class>ChangePasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>getBorrowed</servlet-name>
+    <servlet-class>GetBorrowedServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>isLogin</servlet-name>
+    <servlet-class>IsLoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>regist</servlet-name>
+    <url-pattern>/RegistServlet</url-pattern>
+  </servlet-mapping>l
+  <servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>borrow</servlet-name>
+    <url-pattern>/BorrowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>return</servlet-name>
+    <url-pattern>/ReturnServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>query</servlet-name>
+    <url-pattern>/QueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addRemoveBook</servlet-name>
+    <url-pattern>/AddRemoveBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updatePassword</servlet-name>
+    <url-pattern>/ChangePasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getBorrowed</servlet-name>
+    <url-pattern>/GetBorrowedServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>isLogin</servlet-name>
+    <url-pattern>/IsLoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
